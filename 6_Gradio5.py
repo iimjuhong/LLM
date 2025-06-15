@@ -9,7 +9,7 @@ interface = gr.Interface(
     outputs = "number",
     title = "계산기",
     description = "숫자 두 개를 입력하세요",
-    flagging_mode="never" # flag를 하지 않음음
+    flagging_mode="never" # flag를 하지 않음
 )
 
 interface.launch()
